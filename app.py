@@ -186,7 +186,7 @@ def show_plot(kind: str):
 #     with col2:
 #         show_plot(kind="Bokeh")
 # else:
-with st.container():
+with st.beta_container():
     show_plot(kind="Plotly Express")
 
 # display data
